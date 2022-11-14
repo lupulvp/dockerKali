@@ -13,6 +13,6 @@ docker build -t kali-linux-img \
 
 docker create   --name kali \
         --network bridge --memory=$MEMORY --cpus=$CPUCOUNT \
-        -p 3389:3389 -p 22:22 \
+        -p 3390:3389 -p 1022:22 \
         -t -v kaliuser_data:/home/kaliuser \
         kali-linux-img
