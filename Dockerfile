@@ -5,7 +5,7 @@ ARG PASSWORD
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV DESKTOP_PKG=kali-desktop-xfce
-ENV KALI_PACKAGE=core
+ENV KALI_PACKAGE=headless
 # options: headless,arm,core,default,nethunter,large,everything,firmware,labs
 
 RUN apt update -q --fix-missing
