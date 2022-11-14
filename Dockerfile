@@ -3,7 +3,7 @@ FROM kalilinux/kali-rolling
 ARG USERNAME
 ARG PASSWORD
 
-# ENV DEBIAN_FRONTEND noninteractive
+ENV DEBIAN_FRONTEND noninteractive
 ENV DESKTOP_PKG=kali-desktop-xfce
 ENV KALI_PACKAGE=core
 # options: headless,arm,core,default,nethunter,large,everything,firmware,labs
