@@ -1,11 +1,9 @@
 # Build
-Run in terminal:
 ```
 ./build.sh
 ```
 
 # Run
-Run in terminal:
 ```
 docker start kali
 ```
